@@ -1,11 +1,13 @@
 package com.corejava;
 public class BubbleSort {
     static void bubblesort(int arr[])
-    {int n = arr.length;
+    {
+        int n = arr.length;
         System.out.println(n);
         //first adjacent element
         for(int i=0;i<n-1;i++)
-        {//getting second adjacent element
+        {
+            //getting second adjacent element
             for(int j=0;j<n-i-1;j++)
                 //comparing the elements
                 if(arr[j]>arr[j+1])
